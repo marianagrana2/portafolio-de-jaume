@@ -1,0 +1,58 @@
+.message{
+    padding: center;
+    margin: 0;
+    gap:40px;
+    padding-block-start: 24px;
+    text-align: center;
+}
+.message h2{
+    font: var(--headline5);
+    gap:24px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    line-height: 39px;
+    align-self: stretch;
+
+}
+
+.message p{
+    font-family: 'Oxygen', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 55px;
+    text-align: center;
+
+}
+
+.icon-down{ 
+    width: 81px;
+    height: 81px;
+    text-align: center;
+    padding-block-start: 24px;
+    gap:40px;
+}
+@media screen and (min-width:768px){
+    .message{
+        padding: 40px 16px;
+        gap: 24px;
+        align-items: center;
+    }
+    .message h2{
+        font: var(--headline5);
+        margin: auto;
+    }
+    .message p{
+        font-family:'Poppins',sans-serif;
+        font-style: normal;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 39px;
+    }
+    .icon-down{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+   
